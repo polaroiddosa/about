@@ -236,6 +236,14 @@ a {
     min-height: 400px;
 }
 
+.image-mascot {
+    height: 110%;
+    /* Pop out effect */
+    margin-top: -10%;
+    object-fit: contain;
+    filter: drop-shadow(5px 5px 0px rgba(0, 0, 0, 0.2));
+}
+
 .card-right {
     padding: 2rem;
     display: flex;
@@ -313,6 +321,13 @@ a {
     .card-left {
         min-height: 350px;
         margin-bottom: 2rem;
+    }
+
+    .image-mascot {
+        height: auto;
+        width: 60%;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .badge-container {
